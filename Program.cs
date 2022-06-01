@@ -10,9 +10,12 @@ if(operacao == "Subtrair"){
     Console.WriteLine(n1 - n2);
 }
 
-Console.WriteLine("Obrigada por usar o programa!");
-
 if(operacao == "Multiplicar"){
     Console.WriteLine(n1 * n2);
 }
 
+if(operacao == "Dividir"){
+    Console.WriteLine(n1 / n2);
+}
+
+Console.WriteLine("Obrigada por usar o programa!");
